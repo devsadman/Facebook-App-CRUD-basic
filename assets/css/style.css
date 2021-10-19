@@ -1,0 +1,44 @@
+@font-face {
+    font-family: 'ubuntu';
+    src: url('../fonts/UbuntuCondensed-Regular.ttf')
+  }
+  * {
+    font-family: 'ubuntu';
+  }
+  body{
+    background-color: #ccc;
+  }
+  .profile-menu{
+    background-color: #fff;
+    padding: 10px 0px;
+  }
+  .profile-menu ul li a{
+    color: #555;
+    text-transform: uppercase;
+  }
+  .profile-user{
+    width: 750px;
+    margin: 20px auto;
+
+  }
+  .profile-user img{
+    width: 250px;
+    height: 250px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+    object-fit: cover;
+
+  }
+  .friend-info{
+    text-align: center;
+    margin-top: 20px;
+  }
+  .friend-info img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto;
+  }
